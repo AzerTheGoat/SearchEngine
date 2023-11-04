@@ -1,0 +1,12 @@
+Fonctionnalités clés :
+Quatre exécutions (runs) différentes: Nous avons créé quatre exécutions distinctes pour évaluer différentes stratégies de pondération des termes. Chaque exécution utilise un algorithme de pondération spécifique pour influencer les résultats de recherche.
+
+Run TF amélioré: Cette exécution accorde une importance accrue à la fréquence des termes (TF) dans la pondération des résultats de recherche. Elle favorise les documents contenant fréquemment les termes de recherche.
+
+Run IDF amélioré: Cette exécution met davantage l'accent sur l'inverse de la fréquence des documents (IDF) lors de la pondération des résultats de recherche. Elle privilégie les termes rares et significatifs présents dans les documents.
+
+Run titre avec poids doublé (TF): Cette exécution accorde une pondération deux fois supérieure aux termes contenus dans le titre des documents. Cela permet de mettre en avant les documents dont les termes de recherche apparaissent dans leur titre.
+
+Run titre avec poids doublé (IDF): Cette exécution applique également une pondération deux fois supérieure aux termes du titre, mais en utilisant l'inverse de la fréquence des documents. Elle favorise les termes rares et significatifs qui apparaissent dans les titres.
+
+Utilisation d'un lemmatiseur: Nous avons incorporé un lemmatiseur dans notre moteur de recherche pour normaliser les mots et réduire les variations lexicales. Cela permet d'améliorer la pertinence des résultats de recherche en groupant les formes fléchies et en considérant les mots de manière plus générale.
